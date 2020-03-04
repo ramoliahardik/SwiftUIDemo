@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F788E1382410087D006C8423 /* BasicComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E1372410087D006C8423 /* BasicComponent.swift */; };
+		F788E13A241008AD006C8423 /* ValueSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E139241008AD006C8423 /* ValueSelector.swift */; };
 		F7BBA64E240F365B005AF4C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBA64D240F365B005AF4C1 /* AppDelegate.swift */; };
 		F7BBA650240F365B005AF4C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBA64F240F365B005AF4C1 /* SceneDelegate.swift */; };
 		F7BBA652240F365B005AF4C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBA651240F365B005AF4C1 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F788E1372410087D006C8423 /* BasicComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicComponent.swift; sourceTree = "<group>"; };
+		F788E139241008AD006C8423 /* ValueSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueSelector.swift; sourceTree = "<group>"; };
 		F7BBA64A240F365B005AF4C1 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BBA64D240F365B005AF4C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7BBA64F240F365B005AF4C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				F7BBA658240F365E005AF4C1 /* LaunchScreen.storyboard */,
 				F7BBA65B240F365E005AF4C1 /* Info.plist */,
 				F7BBA655240F365E005AF4C1 /* Preview Content */,
+				F788E1372410087D006C8423 /* BasicComponent.swift */,
+				F788E139241008AD006C8423 /* ValueSelector.swift */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F788E1382410087D006C8423 /* BasicComponent.swift in Sources */,
 				F7BBA64E240F365B005AF4C1 /* AppDelegate.swift in Sources */,
 				F7BBA650240F365B005AF4C1 /* SceneDelegate.swift in Sources */,
+				F788E13A241008AD006C8423 /* ValueSelector.swift in Sources */,
 				F7BBA652240F365B005AF4C1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
