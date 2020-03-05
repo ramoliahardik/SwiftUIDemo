@@ -13,6 +13,24 @@ struct MenuSection: Identifiable {
     let name: String
 }
 
+struct AppView: View {
+    var body: some View {
+        TabView {
+            ContentView()
+                .tabItem {
+                    Image(systemName: "list.dash")
+                    Text("Menu")
+                }
+
+            BasicComponent()
+                .tabItem {
+                    Image(systemName: "square.and.pencil")
+                    Text("Order")
+                }
+        }
+    }
+}
+
 struct ContentView : View {
     
     var views: [MenuSection] = [MenuSection(id: 0, name: "Basic components"),
@@ -27,9 +45,26 @@ struct ContentView : View {
                 NavigationLink(destination: ValueSelector()) {
                     Text("Value Selector")
                 }
+                NavigationLink(destination: ViewBuilderDemo()) {
+                    Text("View Builder")
+                }
+                NavigationLink(destination: Alert_ActionSheet()) {
+                    Text("Alert & ActionSheet")
+                }
+                NavigationLink(destination: Anyview()) {
+                    Text("AnyView")
+                }
+                NavigationLink(destination: AnimationList()) {
+                    Text("Animations")
+                }
+                //.listStyle(PlainListStyle())
+                //.listStyle(DefaultListStyle())
+                //.listStyle(GroupedListStyle())
             }
             .navigationBarTitle("SwiftUI Demo")
             .navigationBarItems(trailing: EditButton())
+            //.navigationViewStyle(DoubleColumnNavigationViewStyle())
+            //.navigationViewStyle(StackNavigationViewStyle())
         }
     }
 }

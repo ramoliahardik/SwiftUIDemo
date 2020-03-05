@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		F788E1382410087D006C8423 /* BasicComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E1372410087D006C8423 /* BasicComponent.swift */; };
 		F788E13A241008AD006C8423 /* ValueSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E139241008AD006C8423 /* ValueSelector.swift */; };
+		F788E14224101D7C006C8423 /* ViewBuilderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E14124101D7B006C8423 /* ViewBuilderDemo.swift */; };
+		F788E144241028F8006C8423 /* Alert_ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E143241028F8006C8423 /* Alert_ActionSheet.swift */; };
+		F788E14924116DF7006C8423 /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E14824116DF7006C8423 /* ImplicitAnimation.swift */; };
+		F788E14B24116EE1006C8423 /* AnimationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E14A24116EE1006C8423 /* AnimationList.swift */; };
+		F788E14D241170B5006C8423 /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E14C241170B5006C8423 /* CustomAnimation.swift */; };
+		F788E14F24117255006C8423 /* AnimationBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E14E24117255006C8423 /* AnimationBinder.swift */; };
+		F788E15124117525006C8423 /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E15024117525006C8423 /* ExplicitAnimation.swift */; };
+		F788E153241176EE006C8423 /* ControllingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E152241176EE006C8423 /* ControllingAnimation.swift */; };
+		F788E15524117833006C8423 /* GestureAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E15424117833006C8423 /* GestureAnimation.swift */; };
+		F788E15724117A41006C8423 /* ShowHideAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E15624117A41006C8423 /* ShowHideAnimation.swift */; };
+		F788E15924118339006C8423 /* Anyview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F788E15824118339006C8423 /* Anyview.swift */; };
 		F7BBA64E240F365B005AF4C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBA64D240F365B005AF4C1 /* AppDelegate.swift */; };
 		F7BBA650240F365B005AF4C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBA64F240F365B005AF4C1 /* SceneDelegate.swift */; };
 		F7BBA652240F365B005AF4C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BBA651240F365B005AF4C1 /* ContentView.swift */; };
@@ -20,6 +31,17 @@
 /* Begin PBXFileReference section */
 		F788E1372410087D006C8423 /* BasicComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicComponent.swift; sourceTree = "<group>"; };
 		F788E139241008AD006C8423 /* ValueSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueSelector.swift; sourceTree = "<group>"; };
+		F788E14124101D7B006C8423 /* ViewBuilderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderDemo.swift; sourceTree = "<group>"; };
+		F788E143241028F8006C8423 /* Alert_ActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert_ActionSheet.swift; sourceTree = "<group>"; };
+		F788E14824116DF7006C8423 /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
+		F788E14A24116EE1006C8423 /* AnimationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationList.swift; sourceTree = "<group>"; };
+		F788E14C241170B5006C8423 /* CustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimation.swift; sourceTree = "<group>"; };
+		F788E14E24117255006C8423 /* AnimationBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBinder.swift; sourceTree = "<group>"; };
+		F788E15024117525006C8423 /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
+		F788E152241176EE006C8423 /* ControllingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingAnimation.swift; sourceTree = "<group>"; };
+		F788E15424117833006C8423 /* GestureAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimation.swift; sourceTree = "<group>"; };
+		F788E15624117A41006C8423 /* ShowHideAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideAnimation.swift; sourceTree = "<group>"; };
+		F788E15824118339006C8423 /* Anyview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anyview.swift; sourceTree = "<group>"; };
 		F7BBA64A240F365B005AF4C1 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BBA64D240F365B005AF4C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7BBA64F240F365B005AF4C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +63,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F788E14724116DE4006C8423 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F788E14A24116EE1006C8423 /* AnimationList.swift */,
+				F788E14824116DF7006C8423 /* ImplicitAnimation.swift */,
+				F788E14C241170B5006C8423 /* CustomAnimation.swift */,
+				F788E14E24117255006C8423 /* AnimationBinder.swift */,
+				F788E15024117525006C8423 /* ExplicitAnimation.swift */,
+				F788E152241176EE006C8423 /* ControllingAnimation.swift */,
+				F788E15424117833006C8423 /* GestureAnimation.swift */,
+				F788E15624117A41006C8423 /* ShowHideAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		F7BBA641240F365B005AF4C1 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +97,19 @@
 		F7BBA64C240F365B005AF4C1 /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F788E14724116DE4006C8423 /* Animation */,
 				F7BBA64D240F365B005AF4C1 /* AppDelegate.swift */,
 				F7BBA64F240F365B005AF4C1 /* SceneDelegate.swift */,
 				F7BBA651240F365B005AF4C1 /* ContentView.swift */,
+				F788E1372410087D006C8423 /* BasicComponent.swift */,
+				F788E139241008AD006C8423 /* ValueSelector.swift */,
+				F788E14124101D7B006C8423 /* ViewBuilderDemo.swift */,
+				F788E143241028F8006C8423 /* Alert_ActionSheet.swift */,
+				F788E15824118339006C8423 /* Anyview.swift */,
 				F7BBA653240F365E005AF4C1 /* Assets.xcassets */,
 				F7BBA658240F365E005AF4C1 /* LaunchScreen.storyboard */,
 				F7BBA65B240F365E005AF4C1 /* Info.plist */,
 				F7BBA655240F365E005AF4C1 /* Preview Content */,
-				F788E1372410087D006C8423 /* BasicComponent.swift */,
-				F788E139241008AD006C8423 /* ValueSelector.swift */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -152,11 +193,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F788E15524117833006C8423 /* GestureAnimation.swift in Sources */,
 				F788E1382410087D006C8423 /* BasicComponent.swift in Sources */,
+				F788E15724117A41006C8423 /* ShowHideAnimation.swift in Sources */,
 				F7BBA64E240F365B005AF4C1 /* AppDelegate.swift in Sources */,
+				F788E144241028F8006C8423 /* Alert_ActionSheet.swift in Sources */,
 				F7BBA650240F365B005AF4C1 /* SceneDelegate.swift in Sources */,
+				F788E14224101D7C006C8423 /* ViewBuilderDemo.swift in Sources */,
+				F788E153241176EE006C8423 /* ControllingAnimation.swift in Sources */,
+				F788E14924116DF7006C8423 /* ImplicitAnimation.swift in Sources */,
+				F788E14B24116EE1006C8423 /* AnimationList.swift in Sources */,
+				F788E14F24117255006C8423 /* AnimationBinder.swift in Sources */,
+				F788E15924118339006C8423 /* Anyview.swift in Sources */,
+				F788E15124117525006C8423 /* ExplicitAnimation.swift in Sources */,
 				F788E13A241008AD006C8423 /* ValueSelector.swift in Sources */,
 				F7BBA652240F365B005AF4C1 /* ContentView.swift in Sources */,
+				F788E14D241170B5006C8423 /* CustomAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
