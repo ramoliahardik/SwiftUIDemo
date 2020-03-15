@@ -57,6 +57,12 @@ struct ContentView : View {
                 NavigationLink(destination: AnimationList()) {
                     Text("Animations")
                 }
+                NavigationLink(destination: GestureList()) {
+                    Text("Gestures")
+                }
+                NavigationLink(destination: StateDataList()) {
+                    Text("State & Data Flow")
+                }
                 //.listStyle(PlainListStyle())
                 //.listStyle(DefaultListStyle())
                 //.listStyle(GroupedListStyle())

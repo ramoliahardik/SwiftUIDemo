@@ -26,6 +26,19 @@
 		F7BBA654240F365E005AF4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BBA653240F365E005AF4C1 /* Assets.xcassets */; };
 		F7BBA657240F365E005AF4C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BBA656240F365E005AF4C1 /* Preview Assets.xcassets */; };
 		F7BBA65A240F365E005AF4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BBA658240F365E005AF4C1 /* LaunchScreen.storyboard */; };
+		F7BF0E0C241E860000711AA2 /* GestureList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF0E0B241E860000711AA2 /* GestureList.swift */; };
+		F7BF0E0E241E86C200711AA2 /* Tapgesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF0E0D241E86C200711AA2 /* Tapgesture.swift */; };
+		F7BF0E10241E86D600711AA2 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF0E0F241E86D600711AA2 /* LongPressGesture.swift */; };
+		F7BF0E12241E86F000711AA2 /* DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF0E11241E86F000711AA2 /* DragGesture.swift */; };
+		F7BF0E14241E870100711AA2 /* MagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF0E13241E870100711AA2 /* MagnificationGesture.swift */; };
+		F7C45A06241E8A8400B79333 /* SimultaneousGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C45A05241E8A8400B79333 /* SimultaneousGesture.swift */; };
+		F7C45A08241E8AB100B79333 /* SequenceGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C45A07241E8AB100B79333 /* SequenceGesture.swift */; };
+		F7C45A0A241E8B1B00B79333 /* ExclusiveGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C45A09241E8B1B00B79333 /* ExclusiveGesture.swift */; };
+		F7C45A0C241E8C1A00B79333 /* GestureMaskEventModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C45A0B241E8C1A00B79333 /* GestureMaskEventModifier.swift */; };
+		F7C45A0F241E8CC600B79333 /* BIndingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C45A0E241E8CC600B79333 /* BIndingDemo.swift */; };
+		F7C45A11241E8D4600B79333 /* StateDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C45A10241E8D4600B79333 /* StateDataList.swift */; };
+		F7C45A13241E8DF200B79333 /* ObservedObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C45A12241E8DF200B79333 /* ObservedObj.swift */; };
+		F7C45A15241E8E4000B79333 /* EnvironmentObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C45A14241E8E4000B79333 /* EnvironmentObj.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +63,19 @@
 		F7BBA656240F365E005AF4C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7BBA659240F365E005AF4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7BBA65B240F365E005AF4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BF0E0B241E860000711AA2 /* GestureList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureList.swift; sourceTree = "<group>"; };
+		F7BF0E0D241E86C200711AA2 /* Tapgesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tapgesture.swift; sourceTree = "<group>"; };
+		F7BF0E0F241E86D600711AA2 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		F7BF0E11241E86F000711AA2 /* DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture.swift; sourceTree = "<group>"; };
+		F7BF0E13241E870100711AA2 /* MagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture.swift; sourceTree = "<group>"; };
+		F7C45A05241E8A8400B79333 /* SimultaneousGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultaneousGesture.swift; sourceTree = "<group>"; };
+		F7C45A07241E8AB100B79333 /* SequenceGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceGesture.swift; sourceTree = "<group>"; };
+		F7C45A09241E8B1B00B79333 /* ExclusiveGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusiveGesture.swift; sourceTree = "<group>"; };
+		F7C45A0B241E8C1A00B79333 /* GestureMaskEventModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMaskEventModifier.swift; sourceTree = "<group>"; };
+		F7C45A0E241E8CC600B79333 /* BIndingDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIndingDemo.swift; sourceTree = "<group>"; };
+		F7C45A10241E8D4600B79333 /* StateDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDataList.swift; sourceTree = "<group>"; };
+		F7C45A12241E8DF200B79333 /* ObservedObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObj.swift; sourceTree = "<group>"; };
+		F7C45A14241E8E4000B79333 /* EnvironmentObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObj.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				F788E14724116DE4006C8423 /* Animation */,
+				F7BF0E0A241E85E500711AA2 /* Gesture */,
+				F7C45A0D241E8CA800B79333 /* StateDataFlow */,
 				F7BBA64D240F365B005AF4C1 /* AppDelegate.swift */,
 				F7BBA64F240F365B005AF4C1 /* SceneDelegate.swift */,
 				F7BBA651240F365B005AF4C1 /* ContentView.swift */,
@@ -120,6 +148,33 @@
 				F7BBA656240F365E005AF4C1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7BF0E0A241E85E500711AA2 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				F7BF0E0B241E860000711AA2 /* GestureList.swift */,
+				F7BF0E0D241E86C200711AA2 /* Tapgesture.swift */,
+				F7BF0E0F241E86D600711AA2 /* LongPressGesture.swift */,
+				F7BF0E11241E86F000711AA2 /* DragGesture.swift */,
+				F7BF0E13241E870100711AA2 /* MagnificationGesture.swift */,
+				F7C45A07241E8AB100B79333 /* SequenceGesture.swift */,
+				F7C45A05241E8A8400B79333 /* SimultaneousGesture.swift */,
+				F7C45A09241E8B1B00B79333 /* ExclusiveGesture.swift */,
+				F7C45A0B241E8C1A00B79333 /* GestureMaskEventModifier.swift */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		F7C45A0D241E8CA800B79333 /* StateDataFlow */ = {
+			isa = PBXGroup;
+			children = (
+				F7C45A10241E8D4600B79333 /* StateDataList.swift */,
+				F7C45A0E241E8CC600B79333 /* BIndingDemo.swift */,
+				F7C45A12241E8DF200B79333 /* ObservedObj.swift */,
+				F7C45A14241E8E4000B79333 /* EnvironmentObj.swift */,
+			);
+			path = StateDataFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,10 +248,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C45A0F241E8CC600B79333 /* BIndingDemo.swift in Sources */,
+				F7C45A13241E8DF200B79333 /* ObservedObj.swift in Sources */,
 				F788E15524117833006C8423 /* GestureAnimation.swift in Sources */,
 				F788E1382410087D006C8423 /* BasicComponent.swift in Sources */,
+				F7C45A0C241E8C1A00B79333 /* GestureMaskEventModifier.swift in Sources */,
+				F7C45A08241E8AB100B79333 /* SequenceGesture.swift in Sources */,
 				F788E15724117A41006C8423 /* ShowHideAnimation.swift in Sources */,
+				F7BF0E0C241E860000711AA2 /* GestureList.swift in Sources */,
+				F7C45A06241E8A8400B79333 /* SimultaneousGesture.swift in Sources */,
 				F7BBA64E240F365B005AF4C1 /* AppDelegate.swift in Sources */,
+				F7C45A15241E8E4000B79333 /* EnvironmentObj.swift in Sources */,
 				F788E144241028F8006C8423 /* Alert_ActionSheet.swift in Sources */,
 				F7BBA650240F365B005AF4C1 /* SceneDelegate.swift in Sources */,
 				F788E14224101D7C006C8423 /* ViewBuilderDemo.swift in Sources */,
@@ -205,10 +267,16 @@
 				F788E14B24116EE1006C8423 /* AnimationList.swift in Sources */,
 				F788E14F24117255006C8423 /* AnimationBinder.swift in Sources */,
 				F788E15924118339006C8423 /* Anyview.swift in Sources */,
+				F7BF0E12241E86F000711AA2 /* DragGesture.swift in Sources */,
+				F7C45A0A241E8B1B00B79333 /* ExclusiveGesture.swift in Sources */,
 				F788E15124117525006C8423 /* ExplicitAnimation.swift in Sources */,
 				F788E13A241008AD006C8423 /* ValueSelector.swift in Sources */,
+				F7C45A11241E8D4600B79333 /* StateDataList.swift in Sources */,
+				F7BF0E10241E86D600711AA2 /* LongPressGesture.swift in Sources */,
 				F7BBA652240F365B005AF4C1 /* ContentView.swift in Sources */,
 				F788E14D241170B5006C8423 /* CustomAnimation.swift in Sources */,
+				F7BF0E0E241E86C200711AA2 /* Tapgesture.swift in Sources */,
+				F7BF0E14241E870100711AA2 /* MagnificationGesture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
