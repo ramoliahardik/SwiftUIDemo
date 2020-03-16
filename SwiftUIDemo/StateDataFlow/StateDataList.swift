@@ -22,6 +22,15 @@ struct StateDataList: View {
                 NavigationLink(destination: EnvironmentObj()) {
                     Text("Environment Object")
                 }
+                NavigationLink(destination: FetchData()) {
+                    Text("Fetch data")
+                }
+                NavigationLink(destination: Preferencekey()) {
+                    Text("PreferenceKey")
+                }
+                NavigationLink(destination: Localized()) {
+                    Text("Localization")
+                }
             }
         }
     }

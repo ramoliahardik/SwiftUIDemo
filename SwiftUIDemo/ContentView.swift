@@ -42,6 +42,9 @@ struct ContentView : View {
                 NavigationLink(destination: BasicComponent()) {
                     Text("Basic components")
                 }
+                NavigationLink(destination: DynamicList()) {
+                    Text("Dynamic List")
+                }
                 NavigationLink(destination: ValueSelector()) {
                     Text("Value Selector")
                 }
@@ -63,6 +66,9 @@ struct ContentView : View {
                 NavigationLink(destination: StateDataList()) {
                     Text("State & Data Flow")
                 }
+                NavigationLink(destination: FrameworkList()) {
+                    Text("Framework integration")
+                }
                 //.listStyle(PlainListStyle())
                 //.listStyle(DefaultListStyle())
                 //.listStyle(GroupedListStyle())
@@ -79,5 +85,8 @@ struct ContentView : View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
+            .previewDisplayName("iPhone SE")
+            .previewLayout(.device)
     }
 }
